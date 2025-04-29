@@ -1,0 +1,45 @@
+/* Body styling with font and background */
+body {
+  font-family: "Georgia", serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ID selector: header */
+#header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #388e3c;
+}
+
+/* Class selector: container */
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Class selector: description paragraph */
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Class selector: image */
+.styled-image {
+  width: 100%;
+  max-width: 400px;
+  border: 5px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
